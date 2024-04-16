@@ -1,0 +1,13 @@
+{
+  "name": "bash-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clone": "node ./index.js",
+    "clear": "rm -rf ../hospital"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
