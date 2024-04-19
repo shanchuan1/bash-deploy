@@ -5,9 +5,14 @@
   "main": "index.js",
   "scripts": {
     "clone": "node ./index.js",
-    "clear": "rm -rf ../hospital"
+    "clear": "rm -rf ./hospital/*"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "2.4.2",
+    "fs-extra": "^11.2.0",
+    "simple-git": "^3.24.0"
+  }
 }
